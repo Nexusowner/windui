@@ -9,17 +9,16 @@ local Window = nil
 function Library:Setup()
 	local version = LRM_ScriptVersion and "v" .. table.concat(LRM_ScriptVersion:split(""), ".") or "Dev Version"
 	Window = UI:CreateWindow({
-		Title = "Nexus",
+		Title = "Grow a Graden",
 		Icon = "rbxassetid://82981159377493",
 		Author = (premium and "Premium" or " Grow a Graden") .. " | " .. version,
 		Folder = "NexusHub",
-		Size = UDim2.fromOffset(580, 460),
+		Size = UDim2.fromOffset(580, 490),
 		Transparent = true,
 		Theme = "Dark",
+		Background = "rbxassetid://90045700186596",	
 		Resizable = true,
 		SideBarWidth = 200,
-		Background = "rbxassetid://90045700186596",
-		BackgroundImageTransparency = 0.42,
 		HideSearchBar = true,
 		ScrollBarEnabled = false,
 		User = {
@@ -123,3 +122,4 @@ function Library:SetupAboutUs(AboutUs)
 end
 
 return Library
+
