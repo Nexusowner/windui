@@ -11,7 +11,7 @@ function Library:Setup()
 	Window = UI:CreateWindow({
 		Title = "Grow a Graden",
 		Icon = "rbxassetid://82981159377493",
-		Author = (premium and "Premium" or " Grow a Graden") .. " | " .. version,
+		Author = "by Nexus developed"
 		Folder = "NexusHub",
 		Size = UDim2.fromOffset(580, 490),
 		Transparent = true,
