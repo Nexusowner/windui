@@ -9,8 +9,8 @@ local Window = nil
 function Library:Setup()
 	local version = LRM_ScriptVersion and "v" .. table.concat(LRM_ScriptVersion:split(""), ".") or "Dev Version"
 	Window = UI:CreateWindow({
-		Title = "Nexus",
-		Icon = "rbxassetid://82981159377493",
+		Title = "Grow a Graden",
+		Icon = "zap",
 		Author = "by Nexus developed", 
 		Folder = "NexusHub",
 		Size = UDim2.fromOffset(580, 460),
